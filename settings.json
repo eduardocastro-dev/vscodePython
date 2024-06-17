@@ -1,0 +1,22 @@
+{
+    "editor.formatOnSave": true,
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 2000,
+    "code-runner.executorMap": {
+      "python": "clear ; .\\util\\Scripts\\python.exe"
+    },
+    "code-runner.runInTerminal": true,
+    "code-runner.clearPreviousOutput": true,
+    "[python]": {
+      "editor.defaultFormatter": "ms-python.autopep8",
+      "editor.tabSize": 3,
+      "editor.insertSpaces": true,
+      "editor.formatOnSave": true,
+      "editor.formatOnType": true,
+    },
+    "python.languageServer": "Pylance",
+    "python.testing.unittestEnabled": false,
+    "python.defaultInterpreterPath": "python",
+    "workbench.colorTheme": "Dracula",
+    "editor.defaultFormatter": "ms-python.autopep8",
+  }
